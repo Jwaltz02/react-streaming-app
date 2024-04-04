@@ -1,0 +1,36 @@
+.thumbnails {
+    width: 280px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 450ms;
+    margin-left: 5px;
+}
+
+.thumbnails:nth-child(1) {
+    margin-left: 50px;
+}
+
+.thumbnails:hover {
+    transform: scale(1.08);
+}
+
+.arrows-thumbnail-photos {
+    display: flex;
+    scrollbar-width: 100px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 30px;
+}
+
+.thumbnail-photos-wrapper {
+    display: flex;
+    z-index: 1;
+}
+
+@media (max-width: 600px) {
+    .thumbnails {
+        width: 220px;
+        height: 110px;
+    }
+}

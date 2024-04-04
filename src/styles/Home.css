@@ -1,0 +1,97 @@
+.preview-photos {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 580px 0px 30px rgba(116, 83, 84, 0.35);
+}
+
+.homepage {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.preview-photos-wrapper {
+    background-color: black;
+    height: 52vw;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: -130px;
+    color: white;
+}
+
+.row-titles {
+    text-align: left;
+    margin-bottom: -20px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Lucida Grande';
+    margin-top: 30px;
+    font-size: 1.3vw;
+}
+
+.preview-info {
+    height: 70%;
+    width: 36vw;
+    padding-top: 13%;
+    margin-left: 55px;
+    text-align: left;
+    font-size: 1.3vw;
+}
+
+.preview-container {
+    width: 41vw;
+    height: 20vw;
+    margin-top: -19vw;
+    margin-left: -5vw;
+    /* background-color: rgb(0, 0, 0);
+    filter: opacity(0.3);
+    backdrop-filter: blur(10px); */
+}
+
+.play-button {
+    width: 115px;
+}
+
+.preview-title {
+    font-size: 3vw;
+}
+
+@media (max-width: 1320px){
+    .row-titles {
+        font-size: 17px;
+     }
+}
+
+@media (max-width: 885px){
+    .preview-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 705px){
+    .play-button {
+        width: 11vw;
+        height: 4vw;
+        font-size: 13px;
+    }
+    .play-icon {
+        margin-left: 10px;
+    }
+    .info-button {
+        width: 20vw;
+        height: 4vw;
+        font-size: 13px;
+    }
+    .info-icon {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .preview-info {
+        display: none;
+    }
+}
+
+
