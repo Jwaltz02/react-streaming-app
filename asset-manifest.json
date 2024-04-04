@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-streaming-app/static/css/main.b76f6142.css",
-    "main.js": "/react-streaming-app/static/js/main.2415bb75.js",
+    "main.js": "/react-streaming-app/static/js/main.6457d762.js",
     "static/js/453.880d133a.chunk.js": "/react-streaming-app/static/js/453.880d133a.chunk.js",
     "static/media/suits.jpeg": "/react-streaming-app/static/media/suits.1203fedbbdcca1182411.jpeg",
     "static/media/breaking-bad.jpeg": "/react-streaming-app/static/media/breaking-bad.7d073858e9d28e7ba11f.jpeg",
@@ -42,11 +42,11 @@
     "static/media/annabelle.jpeg": "/react-streaming-app/static/media/annabelle.abcd32945aea589fc9a6.jpeg",
     "index.html": "/react-streaming-app/index.html",
     "main.b76f6142.css.map": "/react-streaming-app/static/css/main.b76f6142.css.map",
-    "main.2415bb75.js.map": "/react-streaming-app/static/js/main.2415bb75.js.map",
+    "main.6457d762.js.map": "/react-streaming-app/static/js/main.6457d762.js.map",
     "453.880d133a.chunk.js.map": "/react-streaming-app/static/js/453.880d133a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b76f6142.css",
-    "static/js/main.2415bb75.js"
+    "static/js/main.6457d762.js"
   ]
 }
